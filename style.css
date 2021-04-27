@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 7px;
+    color: chocolate;
+}
+
+input {
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    background: none;
+    border: transparent;
+    color: black;
+    border-bottom: 2px solid chocolate;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+
+button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: chocolate;
+    border: none;
+    border-radius: 3px;
+}
+
+button:active {
+    background-color: rgb(134, 56, 0)
+}
+
+.weather_app {
+    margin: 60px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.top {
+    width: 100%;
+}
+.main-info {
+    text-align: center;
+}
+
+.today {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgba(105, 105, 105, 0.589);
+    border-radius: 10px;
+}
+
+.today li, .s2{
+    width: 25%;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+.day {
+    color: chocolate;
+}
+
+.today span {
+    color: chocolate;
+}
+
+.photo, .photo1, .photo2, .photo3, .photo4 {
+    width: 120px;
+    height: 120px;
+}
+
+.warning {
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
+}
+
+.city-name {
+    font-size: 30px;
+    color:black;
+}

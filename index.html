@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video src="Clouds.mp4" loop autoplay></video>
+    <div class="weather_app">
+        <div class="top">
+            <h1>Pogoda</h1>
+            <div class="main-info">
+                <input class="input"type="text" placeholder="Wpisz nazwę miasta.."><button>Wyślij</button>
+                <p class="warning"></p>
+                <h3 class="city-name"></h3>
+            </div>
+            <ul class="today">
+                <li class="day">Dziś</li>
+                <li>Temperatura: <br><span class="temp"></span></li>
+                <li>Wiatr: <br><span class="wind"></span></li>
+                <div class="s2"><img src="" alt="Obrazek przedstawiający pogodę" class="photo"></div>
+            </ul>
+            <div class="list">
+
+                <ul class="today">
+                    <li class="day1"></li>
+                    <li>Temperatura: <br><span class="temp1"></span></li>
+                    <li>Wiatr: <br><span class="wind1"></span></li>
+                    <div class="s2"><img src="" alt="Obrazek przedstawiający pogodę" class="photo1"></div>
+                </ul>
+                <ul class="today">
+                    <li class="day2">Dziś</li>
+                    <li>Temperatura: <br><span class="temp2"></span></li>
+                    <li>Wiatr: <br><span class="wind2"></span></li>
+                    <div class="s2"><img src="" alt="Obrazek przedstawiający pogodę" class="photo2"></div>
+                </ul>
+                <ul class="today">
+                    <li class="day3">Dziś</li>
+                    <li>Temperatura: <br><span class="temp3"></span></li>
+                    <li>Wiatr: <br><span class="wind3"></span></li>
+                    <div class="s2"><img src="" alt="Obrazek przedstawiający pogodę" class="photo3"></div>
+                </ul>
+                <ul class="today">
+                    <li class="day4">Dziś</li>
+                    <li>Temperatura: <br><span class="temp4"></span></li>
+                    <li>Wiatr: <br><span class="wind4"></span></li>
+                    <div class="s2"><img src="" alt="Obrazek przedstawiający pogodę" class="photo4"></div>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
